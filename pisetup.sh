@@ -10,8 +10,8 @@ if is_user_root; then
 
 
 apt-get update
-apt-get upgrade
-apt-get install build-essential
+apt-get upgrade -y
+apt-get install -y build-essential
 
 touch /etc/network/interfaces/eth01
 touch /etc/network/interfaces/eth02
