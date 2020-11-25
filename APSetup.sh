@@ -18,7 +18,7 @@ if is_user_root; then
 
 apt-get update
 apt-get upgrade -y
-apt install dnsmasq hostapd
+apt install -y dnsmasq hostapd
 
 systemctl stop dnsmasq
 systemctl stop hostapd
