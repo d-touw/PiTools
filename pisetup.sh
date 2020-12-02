@@ -13,8 +13,8 @@ apt-get update
 apt-get upgrade -y
 apt-get install -y build-essential
 
-touch /etc/network/interfaces/eth01
-touch /etc/network/interfaces/eth02
+touch /etc/network/interfaces.d/eth01
+touch /etc/network/interfaces.d/eth02
 
 
 cat > /etc/network/interfaces/eth01 <<'EOL'
