@@ -43,7 +43,7 @@ EOL
 cat > /etc/hostapd/hostapd.conf  <<'EOL'
 interface=wlan0
 driver=nl80211
-ssid=Error404
+ssid=Error1111
 hw_mode=g
 channel=7
 wmm_enabled=0
