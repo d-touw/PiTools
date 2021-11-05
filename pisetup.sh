@@ -17,14 +17,14 @@ touch /etc/network/interfaces.d/eth01
 touch /etc/network/interfaces.d/eth02
 
 
-cat > /etc/network/interfaces/eth01 <<'EOL'
+cat > /etc/network/interfaces.d/eth01 <<'EOL'
 auto eth0:1
 iface eth0:1 inet static
         address 192.168.1.2
         netmask 255.255.255.0
 EOL
 
-cat > /etc/network/interfaces/eth01 <<'EOL'
+cat > /etc/network/interfaces.d/eth01 <<'EOL'
 auto eth0:2
 iface eth0:2 inet static
         address 192.168.2.90
