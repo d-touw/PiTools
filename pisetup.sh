@@ -24,7 +24,7 @@ iface eth0:1 inet static
         netmask 255.255.255.0
 EOL
 
-cat > /etc/network/interfaces.d/eth01 <<'EOL'
+cat > /etc/network/interfaces.d/eth02 <<'EOL'
 auto eth0:2
 iface eth0:2 inet static
         address 192.168.2.90
